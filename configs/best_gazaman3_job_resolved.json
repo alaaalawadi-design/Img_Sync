@@ -1,0 +1,57 @@
+{
+  "name": "cp_full_gazaman3_gaza_lora0.30_minus0.01x3_min0.20",
+  "quant": "int8",
+  "distill": true,
+  "lora_multiplier": 0.3,
+  "latent_continuation": false,
+  "reanchor_every": 0,
+  "reanchor_crossfade": null,
+  "start_segment": 1,
+  "lora_schedule": {
+    "start": 0.3,
+    "step": 0.01,
+    "every": 3,
+    "min": 0.2,
+    "from_segment": 1
+  },
+  "start_mode": null,
+  "cond_face_smooth": 0.0,
+  "segments_from": null,
+  "crop_box": [
+    0,
+    0,
+    879,
+    940
+  ],
+  "paste_mode": "rect",
+  "crop_generation_size": [
+    928,
+    992
+  ],
+  "output_size": [
+    1312,
+    704
+  ],
+  "resolution": "720p",
+  "prompt": "A TV presenter talking to the camera. Do not change anything in the background. Preserve the identity of the person. The head and eyes are naturally focused on the camera. Realistic facial features dont zoom in or out .",
+  "negative_prompt": "Close-up, Bright tones, overexposed, static, blurred details, subtitles, style, works, paintings, images, static, overall gray, worst quality, low quality, JPEG compression residue, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn faces, deformed, disfigured, misshapen limbs, fused fingers, still picture, messy background, three legs, many people in the background, walking backwards",
+  "image": "/home/administrator/imgsync/inputs/gazaman3.png",
+  "audio": "/home/administrator/imgsync/inputs/gaza_all_01_08.wav",
+  "seed": 42,
+  "audio_duration_s": 385.27,
+  "num_segments": 121,
+  "num_inference_steps": 8,
+  "text_guidance_scale": 1.0,
+  "audio_guidance_scale": 1.0,
+  "num_frames": 93,
+  "num_cond_frames": 13,
+  "fps": 25,
+  "ref_img_index": 10,
+  "mask_frame_range": 3,
+  "layout": {
+    "resident_blocks": 0,
+    "offload_kv_cache": true
+  },
+  "repo": "/home/administrator/imgsync/LongCat-Video",
+  "ckpt": "/home/administrator/imgsync/LongCat-Video/weights/LongCat-Video-Avatar-1.5"
+}

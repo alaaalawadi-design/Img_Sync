@@ -1,0 +1,74 @@
+repo: https://github.com/meituan-longcat/LongCat-Video commit: 6b3f4b8582a8bc3f20f795735f5383716c4ba794
+Python 3.10.22
+torch 2.8.0+cu128 cuda 12.8 flash_attn 2.8.3
+name, driver_version, memory.total [MiB]
+NVIDIA GeForce RTX 5090, 580.178.04, 32607 MiB
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+               total        used        free      shared  buff/cache   available
+Mem:             122          70          22          18          50          52
+weights:
+total 16
+drwxrwxr-x 3 administrator administrator 4096 Nov  5 19:59 .
+drwxrwxr-x 6 administrator administrator 4096 Nov  5 19:59 ..
+drwxrwxr-x 2 administrator administrator 4096 Nov  5 19:59 LongCat-Video
+lrwxrwxrwx 1 administrator administrator   81 Nov  5 19:59 LongCat-Video-Avatar-1.5 -> /home/administrator/alaa-workspace/LongCat-Video/weights/LongCat-Video-Avatar-1.5
+weights/LongCat-Video-Avatar-1.5/:
+total 64
+drwxrwxr-x 9 administrator administrator  4096 Aug 12 18:10 .
+drwxrwxr-x 4 administrator administrator  4096 Aug 12 13:30 ..
+drwxrwxr-x 2 administrator administrator  4096 Aug 12 16:29 assets
+drwxrwxr-x 2 administrator administrator  4096 Aug 13 23:14 base_model
+drwxrwxr-x 2 administrator administrator  4096 Aug 13 23:14 base_model_int8
+-rw-rw-r-- 1 administrator administrator    48 Aug 12 17:59 config.json
+-rw-rw-r-- 1 administrator administrator  2014 Aug 12 16:29 .gitattributes
+drwxrwxr-x 2 administrator administrator  4096 Aug 13 18:10 lora
+-rw-rw-r-- 1 administrator administrator    48 Aug 12 18:10 model_index.json
+-rw-rw-r-- 1 administrator administrator 13488 Aug 12 16:29 README.md
+drwxrwxr-x 2 administrator administrator  4096 Aug 12 18:10 scheduler
+drwxrwxr-x 2 administrator administrator  4096 Aug 13 17:19 vocal_separator
+drwxrwxr-x 2 administrator administrator  4096 Aug 13 18:11 whisper-large-v3
+
+weights/LongCat-Video-Avatar-1.5/assets/:
+total 11488
+drwxrwxr-x 2 administrator administrator    4096 Aug 12 16:29 .
+drwxrwxr-x 9 administrator administrator    4096 Aug 12 18:10 ..
+-rw-rw-r-- 1 administrator administrator  544936 Aug 12 16:29 1.mp4
+-rw-rw-r-- 1 administrator administrator  792416 Aug 12 16:29 2.mp4
+-rw-rw-r-- 1 administrator administrator  505141 Aug 12 16:29 3.mp4
+-rw-rw-r-- 1 administrator administrator 1118934 Aug 12 16:29 4.mp4
+-rw-rw-r-- 1 administrator administrator 1163761 Aug 12 16:29 5.mp4
+-rw-rw-r-- 1 administrator administrator 1281641 Aug 12 16:29 6.mp4
+-rw-rw-r-- 1 administrator administrator 1831483 Aug 12 16:29 7.mp4
+-rw-rw-r-- 1 administrator administrator 1424162 Aug 12 16:29 8.mp4
+-rw-rw-r-- 1 administrator administrator  127208 Aug 12 16:29 fig.png
+-rw-rw-r-- 1 administrator administrator  150510 Aug 12 16:29 logo.png
+-rw-rw-r-- 1 administrator administrator 2786794 Aug 12 16:29 longcat_video_avatar_1.5_logo.svg
+
+weights/LongCat-Video-Avatar-1.5/base_model/:
+total 30963156
+drwxrwxr-x 2 administrator administrator       4096 Aug 13 23:14 .
+drwxrwxr-x 9 administrator administrator       4096 Aug 12 18:10 ..
+-rw-rw-r-- 1 administrator administrator        853 Aug 12 16:29 config.json
+-rw-rw-r-- 1 administrator administrator 5038262208 Aug 13 23:14 diffusion_pytorch_model-00001-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator 5355725552 Aug 13 23:14 diffusion_pytorch_model-00002-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator 5458518600 Aug 13 23:14 diffusion_pytorch_model-00003-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator 5265572392 Aug 13 18:09 diffusion_pytorch_model-00004-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator 5353652768 Aug 13 23:14 diffusion_pytorch_model-00005-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator 5234276864 Aug 13 23:14 diffusion_pytorch_model-00006-of-00006.safetensors
+-rw-rw-r-- 1 administrator administrator     153151 Aug 12 16:29 diffusion_pytorch_model.safetensors.index.json
+
+weights/LongCat-Video-Avatar-1.5/base_model_int8/:
+total 15508448
+drwxrwxr-x 2 administrator administrator       4096 Aug 13 23:14 .
+drwxrwxr-x 9 administrator administrator       4096 Aug 12 18:10 ..
+-rw-rw-r-- 1 administrator administrator        853 Aug 12 16:29 config.json
+-rw-rw-r-- 1 administrator administrator        193 Aug 12 16:29 quantization_config.json
+-rw-rw-r-- 1 administrator administrator 4264635792 Aug 13 18:09 quantized_model-00001-of-00004.safetensors
+-rw-rw-r-- 1 administrator administrator 4275232472 Aug 13 23:14 quantized_model-00002-of-00004.safetensors
+-rw-rw-r-- 1 administrator administrator 4275232472 Aug 13 18:10 quantized_model-00003-of-00004.safetensors
+-rw-rw-r-- 1 administrator administrator 3065282200 Aug 13 18:10 quantized_model-00004-of-00004.safetensors
+-rw-rw-r-- 1 administrator administrator     201884 Aug 12 17:59 quantized_model.safetensors.index.json
+
+weights/LongCat-Video-Avatar-1.5/lora/:
+total 2463956
+drwxrwxr-x 2 administrator administrator       4096 Aug 13 18:10 .

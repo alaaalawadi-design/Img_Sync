@@ -1,0 +1,25 @@
+# runtime data - never commit
+outputs/
+jobs/
+jobs_hold/
+logs/
+inputs/
+tmp/
+transfer16/
+*.mp4
+*.wav
+*.png
+*.jpg
+*.pt
+*.safetensors
+*.onnx
+*.model
+resume_state.pt
+vram_budget
+.worker_loop.sh
+__pycache__/
+*.pyc
+# the original repo + weights are cloned/linked at setup time
+LongCat-Video/
+eval/models/
+eval/vendor/
